@@ -1,5 +1,6 @@
 import { GLTFLoader } from "./GLTFLoader.js";
 import { Camera, ColorKeyframeTrack, Loader, Scene } from "./three.module.js";
+window.alert('O jogo pode demorar um pouco para carregar, tenha paciência')
         
         
         
