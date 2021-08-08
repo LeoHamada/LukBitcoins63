@@ -238,10 +238,10 @@ import { Camera, ColorKeyframeTrack, Loader, Scene } from "./three.module.js";
                 
                 }
                 if(keydown["s"]|| keydown["S"]){
-                    camera.position.x += Math.sin(camera.rotation.y) * player.speed;
-                    camera.position.z += Math.cos(camera.rotation.y) * player.speed;    
-                    console.log("z:",camera.position.z)
-                    console.log("x:", camera.position.x)
+                    //camera.position.x += Math.sin(camera.rotation.y) * player.speed;
+                    //camera.position.z += Math.cos(camera.rotation.y) * player.speed;    
+                    //console.log("z:",camera.position.z)
+                    //console.log("x:", camera.position.x)
                 }
                 if(keydown["d"] || keydown["D"] || keydown["ArrowRight"] || keydown["39"]){
                     camera.position.x += Math.sin(camera.rotation.y + Math.PI/2) * player.speed
